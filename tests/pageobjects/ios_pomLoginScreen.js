@@ -32,13 +32,13 @@ class LoginScreen extends Page{
     //Input email address
     inputEmailAddress(){
         this.emailInputField.waitForExist();
-        this.emailInputField.setValue('abu@redhotminute.com.au');
+        this.emailInputField.setValue('aaa');
     }
 
     //Input password
     inputPassword(){
         this.passwordInputField.waitForExist();
-        this.passwordInputField.setValue('abcd@1234');
+        this.passwordInputField.setValue('aa');
     }
 
     //Select the Login Button
