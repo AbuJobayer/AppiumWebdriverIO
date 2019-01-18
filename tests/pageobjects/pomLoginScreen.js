@@ -42,7 +42,7 @@ class LoginScreen extends Page{
         //this.emailInputField.waitForExist();
         //browser.pause(2000);
         this.emailInputField.click();
-        this.emailInputField.keys('abu@redhotminute.com.au');
+        this.emailInputField.keys('aa');
     }
  
 
@@ -51,7 +51,7 @@ class LoginScreen extends Page{
         // this.passwordInputField.waitForExist();
         // browser.pause(2000);
         this.passwordInputField.click();
-        this.passwordInputField.keys('abcd@1234');
+        this.passwordInputField.keys('ab');
     }
     
     //Select the Login Button
