@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="VALIDATE_01_Test_Horse_Popup_card_Overview" timestamp="2019-01-16T17:15:55" time="101.35" tests="18" failures="0" errors="5" skipped="0">
+    <properties>
+      <property name="specId" value="1a120de7bd9175716d40b9bccd3bbca8"/>
+      <property name="suiteName" value="VALIDATE 01: Test Horse Popup card - Overview"/>
+      <property name="capabilities" value="samsunggalaxys7.android.6_0_1.app-release_apk"/>
+      <property name="file" value="./tests/specs/validateHorseCardPopup.js"/>
+    </properties>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_01_Test_Horse_Popup_card_Overview" name="Ignore_update" time="9.427">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.Button[1]"}
+RESULT: {"status":0,"value":[],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_01_Test_Horse_Popup_card_Overview" name="Select_Homescreen_Menu_Racing_Hub" time="3.608">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"accessibility id","value":"Navigate to Racing"}
+RESULT: {"status":0,"value":{"ELEMENT":"1"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"accessibility id","value":"Navigate to Racing"}
+RESULT: {"status":0,"value":[{"ELEMENT":"2"}],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"accessibility id","value":"Navigate to Racing"}
+RESULT: {"status":0,"value":{"ELEMENT":"3"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/3/click - {}
+RESULT: {"status":0,"value":true,"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_01_Test_Horse_Popup_card_Overview" name="Click_on_Racing_Hub_2nd_Race_from_the_list" time="4.258">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.Button"}
+RESULT: {"status":0,"value":{"ELEMENT":"4"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.Button"}
+RESULT: {"status":0,"value":[{"ELEMENT":"5"}],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.Button"}
+RESULT: {"status":0,"value":{"ELEMENT":"6"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/6/click - {}
+RESULT: {"status":0,"value":true,"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_01_Test_Horse_Popup_card_Overview" name="Click_on_the_1st_Horse_Tile_from_the_Horse_list" time="7.036">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[3]/android.widget.Button"}
+RESULT: {"status":0,"value":{"ELEMENT":"7"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[3]/android.widget.Button"}
+RESULT: {"status":0,"value":[{"ELEMENT":"8"}],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[3]/android.widget.Button"}
+RESULT: {"status":0,"value":{"ELEMENT":"9"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/9/click - {}
+RESULT: {"status":0,"value":true,"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_01_Test_Horse_Popup_card_Overview" name="Validate_Horse_popup_card_contain_Jersey_Thumbimage" time="15.894">
+      <error message="element (&quot;//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.view.ViewGroup&quot;) still not visible after 5000ms"/>
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.view.ViewGroup"}
+RESULT: {"message":"An element could not be located on the page using the given search parameters.","type":"RuntimeError","seleniumStack":{"type":"NoSuchElement","message":"An element could not be located on the page using the given search parameters.","orgStatusMessage":"An element could not be located on the page using the given search parameters."}}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.view.ViewGroup"}
+RESULT: {"status":0,"value":[],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.view.ViewGroup"}
+RESULT: {"message":"An element could not be located on the page using the given search parameters.","type":"RuntimeError","seleniumStack":{"type":"NoSuchElement","message":"An element could not be located on the page using the given search parameters.","orgStatusMessage":"An element could not be located on the page using the given search parameters."}}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.view.ViewGroup"}
+RESULT: {"status":0,"value":[],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.view.ViewGroup"}
+RESULT: {"status":0,"value":[],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.view.ViewGroup"}
+RESULT: {"status":0,"value":[],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.view.ViewGroup"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/screenshot - {}
+RESULT: {"status":0,"value":[],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+RESULT: null
+]]>
+      </system-out>
+      <system-err>
+        <![CDATA[
+Error: element ("//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.view.ViewGroup") still not visible after 5000ms
+    at elements("//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.view.ViewGroup") - isVisible.js:54:17
+    at isVisible("//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.view.ViewGroup") - waitForVisible.js:73:22
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_01_Test_Horse_Popup_card_Overview" name="Validate_Horse_popup_card_contain_Horse_name" time="13.718">
+      <error message="element (&quot;//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[1]&quot;) still not visible after 5000ms"/>
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[1]"}
+RESULT: {"message":"An element could not be located on the page using the given search parameters.","type":"RuntimeError","seleniumStack":{"type":"NoSuchElement","message":"An element could not be located on the page using the given search parameters.","orgStatusMessage":"An element could not be located on the page using the given search parameters."}}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":[],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[1]"}
+RESULT: {"message":"An element could not be located on the page using the given search parameters.","type":"RuntimeError","seleniumStack":{"type":"NoSuchElement","message":"An element could not be located on the page using the given search parameters.","orgStatusMessage":"An element could not be located on the page using the given search parameters."}}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":[],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":[],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":[],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[1]"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/screenshot - {}
+RESULT: {"status":0,"value":[],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+RESULT: null
+]]>
+      </system-out>
+      <system-err>
+        <![CDATA[
+Error: element ("//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[1]") still not visible after 5000ms
+    at elements("//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[1]") - isVisible.js:54:17
+    at isVisible("//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[1]") - waitForVisible.js:73:22
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_01_Test_Horse_Popup_card_Overview" name="Validate_Horse_popup_card_contain_Trainer_name" time="13.919">
+      <error message="element (&quot;//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[2]&quot;) still not visible after 5000ms"/>
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[2]"}
+RESULT: {"message":"An element could not be located on the page using the given search parameters.","type":"RuntimeError","seleniumStack":{"type":"NoSuchElement","message":"An element could not be located on the page using the given search parameters.","orgStatusMessage":"An element could not be located on the page using the given search parameters."}}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[2]"}
+RESULT: {"status":0,"value":[],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[2]"}
+RESULT: {"message":"An element could not be located on the page using the given search parameters.","type":"RuntimeError","seleniumStack":{"type":"NoSuchElement","message":"An element could not be located on the page using the given search parameters.","orgStatusMessage":"An element could not be located on the page using the given search parameters."}}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[2]"}
+RESULT: {"status":0,"value":[],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[2]"}
+RESULT: {"status":0,"value":[],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[2]"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/screenshot - {}
+RESULT: {"status":0,"value":[],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+RESULT: null
+]]>
+      </system-out>
+      <system-err>
+        <![CDATA[
+Error: element ("//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[2]") still not visible after 5000ms
+    at elements("//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[2]") - isVisible.js:54:17
+    at isVisible("//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[2]") - waitForVisible.js:73:22
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_01_Test_Horse_Popup_card_Overview" name="Validate_Horse_popup_card_contain_Jockey_name" time="17.401">
+      <error message="element (&quot;//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[4]&quot;) still not visible after 5000ms"/>
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[4]"}
+RESULT: {"message":"An element could not be located on the page using the given search parameters.","type":"RuntimeError","seleniumStack":{"type":"NoSuchElement","message":"An element could not be located on the page using the given search parameters.","orgStatusMessage":"An element could not be located on the page using the given search parameters."}}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[4]"}
+RESULT: {"status":0,"value":[],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[4]"}
+RESULT: {"message":"An element could not be located on the page using the given search parameters.","type":"RuntimeError","seleniumStack":{"type":"NoSuchElement","message":"An element could not be located on the page using the given search parameters.","orgStatusMessage":"An element could not be located on the page using the given search parameters."}}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[4]"}
+RESULT: {"status":0,"value":[],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[4]"}
+RESULT: {"status":0,"value":[],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[4]"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/screenshot - {}
+RESULT: {"status":0,"value":[],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+RESULT: null
+]]>
+      </system-out>
+      <system-err>
+        <![CDATA[
+Error: element ("//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[4]") still not visible after 5000ms
+    at elements("//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[4]") - isVisible.js:54:17
+    at isVisible("//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[4]") - waitForVisible.js:73:22
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_01_Test_Horse_Popup_card_Overview" name="Validate_Horse_popup_card_contain_Breed_Tag" time="4.161">
+      <error message="expected false to equal true"/>
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"10"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/10/displayed - {}
+RESULT: {"status":0,"value":true,"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[4]"}
+RESULT: {"message":"An element could not be located on the page using the given search parameters.","type":"RuntimeError","seleniumStack":{"type":"NoSuchElement","message":"An element could not be located on the page using the given search parameters.","orgStatusMessage":"An element could not be located on the page using the given search parameters."}}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.HorizontalScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.Button/android.widget.TextView[4]"}
+RESULT: {"status":0,"value":[],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+      <system-err>
+        <![CDATA[
+AssertionError: expected false to equal true
+    at HorseCardPop.check_horseCard_Breed (/Users/Jobayer/Documents/workspace/racing.com-appv2-appium/tests/pageobjects/pomHorseCardPop.js:285:55)
+    at Context.<anonymous> (/Users/Jobayer/Documents/workspace/racing.com-appv2-appium/tests/specs/validateHorseCardPopup.js:63:26)
+    at new Promise (<anonymous>)
+    at new F (/Users/Jobayer/Documents/workspace/racing.com-appv2-appium/node_modules/core-js/library/modules/_export.js:36:28)
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_01_Test_Horse_Popup_card_Overview" name="Validate_Horse_popup_card_contain_Weight_Tag" time="1.676">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"11"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/11/displayed - {}
+RESULT: {"status":0,"value":true,"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"12"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/12/text - {}
+RESULT: {"status":0,"value":"Weight","sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_01_Test_Horse_Popup_card_Overview" name="Validate_Horse_popup_card_contain_Age_Tag" time="0.692">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"13"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/13/text - {}
+RESULT: {"status":0,"value":"Age","sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_01_Test_Horse_Popup_card_Overview" name="Validate_Horse_popup_card_contain_Sex_Tag" time="0.547">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"14"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/14/text - {}
+RESULT: {"status":0,"value":"Sex","sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_01_Test_Horse_Popup_card_Overview" name="Validate_Horse_popup_card_contain_Colour_Tag" time="0.539">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"15"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/15/text - {}
+RESULT: {"status":0,"value":"Colour","sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_01_Test_Horse_Popup_card_Overview" name="Validate_Horse_popup_card_contain_Last_5_Tag" time="0.588">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[6]/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"16"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/16/text - {}
+RESULT: {"status":0,"value":"Last 5","sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_01_Test_Horse_Popup_card_Overview" name="Validate_Horse_popup_card_contain_Win_Tag" time="0.452">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[7]/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"17"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/17/text - {}
+RESULT: {"status":0,"value":"Win %","sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_01_Test_Horse_Popup_card_Overview" name="Validate_Horse_popup_card_contain_Place_Tag" time="0.657">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[8]/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"18"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/18/text - {}
+RESULT: {"status":0,"value":"Place %","sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_01_Test_Horse_Popup_card_Overview" name="Validate_Horse_popup_card_contain_Prize_Tag" time="0.697">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[9]/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"19"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/19/text - {}
+RESULT: {"status":0,"value":"Prize","sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_01_Test_Horse_Popup_card_Overview" name="Open_the_Career_dropdown_content" time="6.067">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.Button/android.view.ViewGroup/android.widget.TextView[4]"}
+RESULT: {"status":0,"value":{"ELEMENT":"20"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.Button/android.view.ViewGroup/android.widget.TextView[4]"}
+RESULT: {"status":0,"value":[{"ELEMENT":"21"}],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.Button/android.view.ViewGroup/android.widget.TextView[4]"}
+RESULT: {"status":0,"value":{"ELEMENT":"22"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/22/click - {}
+RESULT: {"status":0,"value":true,"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="VALIDATE_02_Test_Horse_Popup_card_Career" timestamp="2019-01-16T17:17:37" time="13.204" tests="12" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="1a120de7bd9175716d40b9bccd3bbca8"/>
+      <property name="suiteName" value="VALIDATE 02: Test Horse Popup card - Career"/>
+      <property name="capabilities" value="samsunggalaxys7.android.6_0_1.app-release_apk"/>
+      <property name="file" value="./tests/specs/validateHorseCardPopup.js"/>
+    </properties>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_02_Test_Horse_Popup_card_Career" name="Validate_Horse_popup_card_Career_contain_Track_Tag" time="1.767">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"23"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/23/displayed - {}
+RESULT: {"status":0,"value":true,"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"24"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/24/text - {}
+RESULT: {"status":0,"value":"Track","sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_02_Test_Horse_Popup_card_Career" name="Validate_Horse_popup_card_Career_contain_Distance_Tag" time="0.455">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"25"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/25/text - {}
+RESULT: {"status":0,"value":"Distance","sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_02_Test_Horse_Popup_card_Career" name="Validate_Horse_popup_card_Career_contain_Track_Dist_Tag" time="0.461">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[3]/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"26"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/26/text - {}
+RESULT: {"status":0,"value":"Track/Dist","sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_02_Test_Horse_Popup_card_Career" name="Validate_Horse_popup_card_Career_contain_Jockey_Tag" time="0.509">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[4]/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"27"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/27/text - {}
+RESULT: {"status":0,"value":"Jockey","sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_02_Test_Horse_Popup_card_Career" name="Validate_Horse_popup_card_Career_contain_Firm_Tag" time="0.745">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[5]/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"28"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/28/text - {}
+RESULT: {"status":0,"value":"Firm","sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_02_Test_Horse_Popup_card_Career" name="Validate_Horse_popup_card_Career_contain_Good_Tag" time="0.416">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[6]/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"29"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/29/text - {}
+RESULT: {"status":0,"value":"Good","sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_02_Test_Horse_Popup_card_Career" name="Validate_Horse_popup_card_Career_contain_Soft_Tag" time="2.178">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[7]/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"30"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/30/text - {}
+RESULT: {"status":0,"value":"Soft","sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_02_Test_Horse_Popup_card_Career" name="Validate_Horse_popup_card_Career_contain_Heavy_Tag" time="0.477">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[8]/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"31"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/31/text - {}
+RESULT: {"status":0,"value":"Heavy","sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_02_Test_Horse_Popup_card_Career" name="Validate_Horse_popup_card_Career_contain_Synth_Tag" time="0.395">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[9]/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"32"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/32/text - {}
+RESULT: {"status":0,"value":"Synth","sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_02_Test_Horse_Popup_card_Career" name="Validate_Horse_popup_card_Career_contain_1st_up_Tag" time="0.452">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[10]/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"33"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/33/text - {}
+RESULT: {"status":0,"value":"1st Up","sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_02_Test_Horse_Popup_card_Career" name="Validate_Horse_popup_card_Career_contain_2nd_up_Tag" time="0.362">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[11]/android.widget.TextView[1]"}
+RESULT: {"status":0,"value":{"ELEMENT":"34"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: GET http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/34/text - {}
+RESULT: {"status":0,"value":"2nd Up","sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="samsunggalaxys7.android.6_0_1.app-release_apk.VALIDATE_02_Test_Horse_Popup_card_Career" name="Close_the_Career_dropdown_content" time="4.979">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.Button/android.view.ViewGroup/android.widget.TextView[4]"}
+RESULT: {"status":0,"value":{"ELEMENT":"35"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/elements - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.Button/android.view.ViewGroup/android.widget.TextView[4]"}
+RESULT: {"status":0,"value":[{"ELEMENT":"36"}],"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element - {"using":"xpath","value":"//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.Button/android.view.ViewGroup/android.widget.TextView[4]"}
+RESULT: {"status":0,"value":{"ELEMENT":"37"},"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: POST http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8/element/37/click - {}
+RESULT: {"status":0,"value":true,"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+COMMAND: DELETE http://0.0.0.0:4723/wd/hub/session/c8170c8d-30aa-4392-b8af-4a7d4561bda8 - {}
+RESULT: {"status":0,"value":null,"sessionId":"c8170c8d-30aa-4392-b8af-4a7d4561bda8"}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
