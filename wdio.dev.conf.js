@@ -6,7 +6,7 @@ require('./wdio.conf.js');
 global.cfg.capabilities = [{
 
  /*
-    udid: "eef72b903259194ac25de4b758a3d1b67402cf65",
+    udid: "",
     bundleId: "com.racing.enterprise.alpha",
     platformName: "iOS",
     platformVersion: "11.4.1",
